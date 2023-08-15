@@ -5,10 +5,17 @@ import introRight from "./assets/img/intro.svg";
 import visionLeft from "./assets/img/vision-left.svg";
 import vision from "./assets/img/vision.svg";
 import shibanomics from "./assets/img/shibanomics.svg";
+import roadmap from "./assets/img/roadmap.svg";
 import utility from "./assets/img/Utility.png";
 import community from "./assets/img/Community.png";
 import transparency from "./assets/img/Transparency.png";
 import price from "./assets/img/price.svg";
+import e1 from "./assets/img/e-1.svg";
+import e2 from "./assets/img/e-2.svg";
+import e3 from "./assets/img/e-3.svg";
+import et1 from "./assets/img/e-t-1.png";
+import et2 from "./assets/img/e-t-2.png";
+import et3 from "./assets/img/e-t-3.png";
 import "./App.scss";
 
 function App() {
@@ -178,6 +185,65 @@ function App() {
                 </li>
               </ul>
             </div>
+
+            <div className="shibanomics-ecosystem">
+              <h3 className="shibanomics-ecosystem-title">
+                TOSHIBARIUM COMPLETED ECOSYSTEM
+              </h3>
+              <ul className="shibanomics-ecosystem-box">
+                <li className="shibanomics-ecosystem-box-item shibanomics-ecosystem-box-item-1">
+                  <div className="shibanomics-ecosystem-box-item-img">
+                    <img src={e1} alt="" />
+                  </div>
+                  <div className="shibanomics-ecosystem-box-item-right">
+                    <div className="shibanomics-ecosystem-box-item-right-title">
+                      <img src={et1} alt="" />
+                    </div>
+                    <p>
+                      Toshiswap is a decentralized exchange that allows users to
+                      swap tokens on Shibarium based on the AMM automated market
+                      creation protocol.
+                    </p>
+                  </div>
+                </li>
+                <li className="shibanomics-ecosystem-box-item shibanomics-ecosystem-box-item-2">
+                  <div className="shibanomics-ecosystem-box-item-right">
+                    <div className="shibanomics-ecosystem-box-item-right-title">
+                      <img src={et2} alt="" />
+                    </div>
+                    <p>
+                      Toshiswap is a decentralized exchange that allows users to
+                      swap tokens on Shibarium based on the AMM automated market
+                      creation protocol.
+                    </p>
+                  </div>
+                  <div className="shibanomics-ecosystem-box-item-img">
+                    <img src={e2} alt="" />
+                  </div>
+                </li>
+                <li className="shibanomics-ecosystem-box-item shibanomics-ecosystem-box-item-3">
+                  <div className="shibanomics-ecosystem-box-item-img">
+                    <img src={e3} alt="" />
+                  </div>
+                  <div className="shibanomics-ecosystem-box-item-right">
+                    <div className="shibanomics-ecosystem-box-item-right-title">
+                      <img src={et3} alt="" />
+                    </div>
+                    <p>
+                      Toshiswap is a decentralized exchange that allows users to
+                      swap tokens on Shibarium based on the AMM automated market
+                      creation protocol.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="roadmap">
+          <div className="section-title">
+            <img src={roadmap} alt="" />
           </div>
         </section>
       </main>
